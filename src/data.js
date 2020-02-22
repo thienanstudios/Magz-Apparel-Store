@@ -3,7 +3,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Japan MG",
-    img: "productImgs/japan one MG",
+    img: "productImgs/japan one MG.jfif",
     price: 45.00,
     company: "MAGZ STUDIOS",
     info:
@@ -15,7 +15,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Of Pink MG",
-    img: "productImgs/of pink MG",
+    img: "productImgs/of pink MG.jfif",
     price: 45.00,
     company: "MAGZ STUDIOS",
     info:
@@ -27,7 +27,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Butterfly MG",
-    img: "productImgs/small blk butterfly MG",
+    img: "productImgs/small blk butterfly MG.jfif",
     price: 45.00,
     company: "MAGZ STUDIOS",
     info:
@@ -39,7 +39,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Big Butterfly MG",
-    img: "productImgs/bg wt butterfly MG",
+    img: "productImgs/bg wt butterfly MG.jfif",
     price: 35.00,
     company: "MAGZ STUDIOS",
     info:
@@ -51,7 +51,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Lavender Love MG",
-    img: "productImgs/lav pink MG",
+    img: "productImgs/lav pink MG.jfif",
     price: 24.00,
     company: "MAGZ STUDIOS",
     info:
@@ -63,7 +63,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Long Grey Japan MG",
-    img: "productImgs/grey long MG",
+    img: "productImgs/grey long MG.jfif",
     price: 17.00,
     company: "MAGZ STUDIOS",
     info:
@@ -75,7 +75,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Red Comit Japan MG",
-    img: "productImgs/comit japan MG",
+    img: "productImgs/comit japan MG.jfif",
     price: 37.00,
     company: "MAGZ STUDIOS",
     info:
