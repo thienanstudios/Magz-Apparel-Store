@@ -9,10 +9,12 @@ export default class Product extends Component {
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
-          <div className="img-container p-5" onClick={console.log("You clciked me on img container")}>
+          {/* can change padding of image here "p-5" or p-0 */}
+          <div className="img-container p-0.8" onClick={() => console.log("You clciked me on img container")}>
             <Link to="/details">
               <img src={img} alt="product" className="card-img-top" />
             </Link>
+            
           </div>
         </div>
       </ProductWrapper>
