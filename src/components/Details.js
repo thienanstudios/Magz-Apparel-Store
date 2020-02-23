@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { ProductConcumer, ProductConsumer } from "../context";
+import { ProductConsumer } from "../context";
 import { Link } from 'react-router-dom';
 import { BUttonContainer } from './Button';
 
-
+// 403
 
 export default class Details extends Component {
   render() {
