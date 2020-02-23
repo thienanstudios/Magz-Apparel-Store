@@ -39,14 +39,13 @@ export default class Product extends Component {
             }
 
           </ProductConsumer>
-          {/* can change padding of image here "p-5" or p-0 */}
 
           {/* card footer */}
           <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">
               {title}
             </p>
-            <h5 className="text-blue font-italic mb-0">
+            <h5 className="text-blue mb-0">
               <span className="mr-1">
                 $
               </span>
