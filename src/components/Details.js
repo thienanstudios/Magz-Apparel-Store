@@ -44,7 +44,7 @@ export default class Details extends Component {
                     </strong>
                   </h4>
                   <p className ="font-weigh-bold mt-3 mb-0">
-                    history of product : 
+                    history of product 
                   </p>
                   <p className="text-muted lead">
                     {info}
