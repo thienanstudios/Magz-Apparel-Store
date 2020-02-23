@@ -4,18 +4,22 @@ import { storeProducts, detailProduct } from './data';
 const ProductContext = React.createContext();
 // Provider
 // Consumer
+
+
 class ProductProvider extends Component {
   state = {
     products: [],
     detailProduct: detailProduct,
     cart: [],
-    nodealOpen: true,
-    modalProduct: detailProduct,
+    modalOpen: true,
+    modalProduct: detailProduct
+  };
 
-  }
+  
+
   componentDidMount() {
     this.setProducts();
-  }
+  };
   setProducts = () => {
     let tempProducts = [];
     storeProducts.forEach(item => {
@@ -26,7 +30,7 @@ class ProductProvider extends Component {
     this.setState(() => {
       return { products: tempProducts }
     })
-  }
+  };
 
   getItem = (id) => {
     const product = this.state.products.find(item => item.id === id);
@@ -62,15 +66,16 @@ class ProductProvider extends Component {
   openModal = id => {
     const product = this.getItem(id);
     this.setState(()=>{
-      return { modalProduct:product, modealOpen: true }
-    })
-  }
+      return { modalProduct: product, modalOpen: true };
+    }); 
+  };
 
-  closeModeal = () => {
-    this.setState(()=> {
-      return { modealOpen: false }
-    })
-  }
+  closeModal = () => {
+    this.setState(() => {
+      return { modalOpen: false };
+    });
+  };
+  
 
   render() {
     return (
