@@ -82,6 +82,30 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
+  },
+  {
+    id: 8,
+    title: "BoJack MagzMan COMING SOON",
+    img: "productImgs/BoJack MagzMan coming soon.jpg",
+    price: 47.00,
+    company: "MAGZ STUDIOS",
+    info:
+      "BoJack MagzMan. The View From Half Way Down.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 8,
+    title: "HARBOUR MAGZ COMING SOON",
+    img: "productImgs/harbour Magz coming soon.jpg",
+    price: 50.00,
+    company: "MAGZ STUDIOS",
+    info:
+      "It's a vibe.",
+    inCart: false,
+    count: 0,
+    total: 0
   }
 ];
 
