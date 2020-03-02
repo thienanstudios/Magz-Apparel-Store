@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "HARBOUR MAGZ",
+    title: "wHole Japan MG",
     img: "productImgs/holeJapMG.jfif",
     price: 50.00,
     company: "MAGZ STUDIOS",
