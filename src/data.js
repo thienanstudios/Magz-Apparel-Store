@@ -85,6 +85,30 @@ export const storeProducts = [
   },
   {
     id: 8,
+    title: "HARBOUR MAGZ",
+    img: "productImgs/holeJapMG.jfif",
+    price: 50.00,
+    company: "MAGZ STUDIOS",
+    info:
+      "It's a vibe.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 9,
+    title: "HARBOUR MAGZ",
+    img: "productImgs/harbourMagz.png",
+    price: 50.00,
+    company: "MAGZ STUDIOS",
+    info:
+      "Mushu likes it so . . . http://www.ooshirts.com/designapp/sharing/5265647804 ",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 10,
     title: "BoJack MagzMan COMING SOON",
     img: "productImgs/BoJack MagzMan coming soon.jpg",
     price: 47.00,
@@ -94,19 +118,8 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
-  },
-  {
-    id: 8,
-    title: "HARBOUR MAGZ COMING SOON",
-    img: "productImgs/harbour Magz coming soon.jpg",
-    price: 50.00,
-    company: "MAGZ STUDIOS",
-    info:
-      "It's a vibe.",
-    inCart: false,
-    count: 0,
-    total: 0
   }
+  
 ];
 
 export const detailProduct = {
